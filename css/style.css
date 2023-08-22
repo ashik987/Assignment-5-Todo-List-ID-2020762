@@ -1,0 +1,52 @@
+body{
+    background-color: #BADEF1;
+}
+
+.input-task input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #a3a6a8; 
+    padding: 5px; 
+    
+  }
+
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  
+  .task {
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    line-height: 35px;
+    /*justify-content: space-between;
+    display: flex;*/
+  }
+  .task span {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .task .button {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .task .button.edit {
+    background-color: #3d9afb;
+  }
